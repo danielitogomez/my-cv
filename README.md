@@ -66,6 +66,31 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
+### Run in Local
+
+You can do it with a Docker-compose or just run a container using the Dockerfile
+
+1.  **Using the Dockerfile to up.**
+
+    ```shell
+    sh -x run.sh
+    ```
+2.  **Using the docker to down.**
+
+    ```shell
+    docker rm -f $YOUR_CONTAINER_ID
+    ```
+3.  **Using Docker compose to up.**
+
+    ```shell
+    docker-compose up -d
+    ```
+4.  **Using Docker compose to down.**
+
+    ```shell
+    docker-compose down
+    ```
+
 ## Copyright and License
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+Copyright 2013-2022 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
